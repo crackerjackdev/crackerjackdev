@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:ital,wght@1,400;1,600&family=Poppins:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-ibm;
+  @apply mx-4;
+
+  a {
+    @apply font-poppins;
+  }
+  a:hover {
+    @apply underline;
+  }
+
+  #home-banner {
+    background-image: url(./imgs/banner.webp);
+    @apply object-cover;
+  }
+
+  #contact-banner {
+    background-image: url(./imgs/contact.webp);
+    @apply bg-cover;
+    @apply bg-center;
+    @apply object-cover;
+  }
+
+  .brand-logo {
+    text-decoration: none !important;
+  }
+}
