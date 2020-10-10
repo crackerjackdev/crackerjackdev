@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Serif:ital,wght@1,400;1,600&family=Poppins:wght@400;600&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -41,7 +39,8 @@ body {
       @apply rounded;
       @apply outline-none;
     }
-    .btns:hover {
+    .btns:hover,
+    .btns:focus {
       @apply bg-gray-700;
     }
 

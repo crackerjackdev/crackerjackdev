@@ -1,9 +1,13 @@
 import React from "react"
 import Layout from "../layout"
+import { Helmet } from "react-helmet"
 
 export default function about() {
     return (
       <Layout>
+        <Helmet>
+          <title>About Crackerjack</title>
+        </Helmet>
         <div className="flex flex-wrap md:flex-no-wrap max-w-6xl mx-auto border-t">
           <div className="w-full md:w-2/4 md:mr-2">
             <h2 className="text-2xl font-ibm-serif italic my-3">About</h2>

@@ -3,7 +3,7 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
     extend: {},
     fontFamily: {
@@ -14,7 +14,7 @@ module.exports = {
   },
   variants: {
     borderWidth: ["responsive", "last", "hover", "focus"],
-    margin: ["last", "responsive"],
+    margin: ["last", "responsive", "first"],
   },
   plugins: [],
 }
