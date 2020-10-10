@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default function PostSnippet() {
   return (
-    <article className="mb-3 pb-3 border-b last:border-b-0">
+    <article className="mb-3 pb-3 border-b last:border-b-0 last:mb-0">
       <header className="font-ibm-serif text-xl mb-2">
         <h2>
           Vestibulum commodo felis quis tortor vestibulum commodo felis quis

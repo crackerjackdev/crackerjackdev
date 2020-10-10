@@ -30,4 +30,34 @@ body {
   .brand-logo {
     text-decoration: none !important;
   }
+
+  form {
+    .btns {
+      @apply bg-gray-600;
+      @apply text-white;
+      @apply font-bold;
+      @apply py-2;
+      @apply px-4;
+      @apply rounded;
+      @apply outline-none;
+    }
+    .btns:hover {
+      @apply bg-gray-700;
+    }
+
+    .inputs {
+      @apply appearance-none;
+      @apply border;
+      @apply rounded;
+      @apply w-full;
+      @apply py-2;
+      @apply px-3;
+      @apply text-gray-700;
+      @apply leading-tight;
+      @apply outline-none;
+    }
+    .inputs:focus {
+      @apply border-gray-700;
+    }
+  }
 }

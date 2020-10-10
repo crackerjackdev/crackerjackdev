@@ -40,17 +40,13 @@ export default function Layout({ children }) {
             </Link>
           </li>
           <li className="mx-2 my-2 md:my-0">
-            <Link
-              to={`https://github.com/crackerjackdev`}
-              target="_blank"
-              className="hover:underline"
-            >
+            <a className="hover:underline" href="https://github.com/crackerjackdev" target="_blank" rel="noopener noreferrer">
               Open Source
-            </Link>
+            </a>
           </li>
           <li className="mx-2 my-2 md:my-0">
-            <Link to="#" className="hover:underline">
-              Contact
+            <Link to="/about" className="hover:underline">
+              About
             </Link>
           </li>
         </ul>
@@ -154,13 +150,9 @@ export default function Layout({ children }) {
             </Link>
           </li>
           <li>
-            <Link
-              to={`https://github.com/crackerjackdev`}
-              target="_blank"
-              className="mx-2"
-            >
+            <a className="mx-2" href="https://github.com/crackerjackdev" target="_blank" rel="noopener noreferrer">
               GitHub
-            </Link>
+            </a>
           </li>
           <li>
             <Link to="#" className="mx-2">
