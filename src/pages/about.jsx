@@ -12,8 +12,8 @@ export default function about() {
           <div className="w-full md:w-2/4 md:mr-2">
             <h2 className="text-2xl font-ibm-serif italic my-3">About</h2>
             <div className="mb-3">
-              <p className="mb-3">Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet metus fermentum posuere. Morbi sit amet nulla sed dolor elementum imperdiet. Quisque fermentum. Cum sociis natoque penatibus et magnis xdis parturient montes, nascetur ridiculus mus. Pellentesque adipiscing eros ut libero. Ut condimentum mi vel tellus. Suspendisse laoreet. Fusce ut est sed dolor gravida convallis. Morbi vitae ante. Vivamus ultrices luctus nunc. Suspendisse et dolor. Etiam dignissim. Proin malesuada adipiscing lacus. Donec metus. Curabitur gravida</p>
-              <p className="mb-3">Praesent dapibus, neque id cursus faucibus, tortor neque egestas auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+              <p className="mb-3">Our motto is to take an initiative for making the best product with new innovative technologies. Our team is aiming to make reliable, safe, secure, and resilience software. We are making the real impact on our clients with our work ethics and continuous efforts to make ampler products.</p>
+              <h4 className="text-xl font-ibm-serif italic my-3">Let's work together!</h4>
             </div>
           </div>
           <div className="w-full md:w-2/4 md:ml-2">

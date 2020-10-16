@@ -5,11 +5,11 @@ export default function PostSnippet() {
   return (
     <article className="mb-3 pb-3 border-b last:border-b-0 last:mb-0">
       <header className="font-ibm-serif text-xl mb-2">
-        <h2>
+        <h2 className="italic">
           Vestibulum commodo felis quis tortor vestibulum commodo felis quis
           tortor.
         </h2>
-        <div className="text-xs">Nov 12</div>
+        <div className="text-xs font-poppins">Nov 12</div>
       </header>
       <main className="text-base mb-2">
         Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae

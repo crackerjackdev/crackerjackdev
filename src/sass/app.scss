@@ -35,8 +35,8 @@ body {
       @apply text-white;
       @apply font-bold;
       @apply py-2;
-      @apply px-4;
-      @apply rounded;
+      @apply px-6;
+      @apply rounded-full;
       @apply outline-none;
     }
     .btns:hover,
@@ -47,7 +47,7 @@ body {
     .inputs {
       @apply appearance-none;
       @apply border;
-      @apply rounded;
+      @apply rounded-lg;
       @apply w-full;
       @apply py-2;
       @apply px-3;
@@ -57,6 +57,7 @@ body {
     }
     .inputs:focus {
       @apply border-gray-700;
+      @apply bg-gray-100;
     }
   }
 }

@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 export default function Sidebar() {
   return (
-    <div className="bg-gray-100 p-4 rounded mb-3">
-      <h4 className="text-xl font-ibm-serif mb-2">More...</h4>
+    <div className="bg-gray-100 p-4 rounded-lg mb-3">
+      <h4 className="text-xl font-ibm-serif mb-2 italic">More...</h4>
       <ul>
         <li>
           <Link to="#">Vestibulum</Link>

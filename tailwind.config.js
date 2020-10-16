@@ -5,7 +5,11 @@ module.exports = {
   },
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        '-6': '-6deg',
+      }
+    },
     fontFamily: {
       poppins: ['"Poppins", sans-serif'],
       ibm: ['"IBM Plex Sans", sans-serif'],

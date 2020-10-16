@@ -14,7 +14,7 @@ export default function Home() {
     <Layout>
       {/* Banner */}
       <div
-        className="max-w-6xl mx-auto bg-gray-900 rounded text-white py-24 px-4 md:px-12 mb-4"
+        className="max-w-6xl mx-auto bg-gray-900 rounded-lg text-white py-24 px-4 md:px-12 mb-4"
         id="home-banner"
       >
         <div className="md:w-1/2 font-ibm-serif text-4xl mb-1 italic">
@@ -24,7 +24,7 @@ export default function Home() {
           We design, develop & deploy web applications using Laravel, React &
           Vue.
         </h1>
-        <Link to={`/`} className="font-poppins font-semibold">
+        <Link to="/solutions" className="font-poppins font-semibold">
           <svg
             aria-hidden="true"
             focusable="false"

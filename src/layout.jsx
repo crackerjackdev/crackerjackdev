@@ -23,29 +23,19 @@ export default function Layout({ children }) {
         <nav className="max-w-6xl mx-auto font-poppins flex flex-wrap md:flex-no-wrap justify-between items-center py-3">
           <ul className="flex justify-center md:justify-start w-full text-sm md:text-base">
             <li className="mr-2 my-2 md:my-0 md:ml-0">
-              <Link to="#" className="hover:underline">
-                Design
-              </Link>
-            </li>
-            <li className="mx-2 my-2 md:my-0">
-              <Link to="#" className="hover:underline">
-                Develop
-              </Link>
-            </li>
-            <li className="mx-2 my-2 md:my-0">
-              <Link to="#" className="hover:underline">
-                Deploy
+              <Link to="/how-we-work" className="hover:underline">
+                How We Work
               </Link>
             </li>
           </ul>
           <ul className="flex justify-center md:justify-end w-full text-sm md:text-base">
             <li className="mx-2 my-2 md:my-0">
-              <Link to="#" className="hover:underline">
+              <Link to="/work" className="hover:underline">
                 Work
               </Link>
             </li>
             <li className="mx-2 my-2 md:my-0">
-              <Link to="#" className="hover:underline">
+              <Link to="/solutions" className="hover:underline">
                 Solutions
               </Link>
             </li>
@@ -174,14 +164,14 @@ export default function Layout({ children }) {
               </a>
             </li>
             <li>
-              <Link to="#" className="mx-2">
+              <a className="mx-2" href="https://twitter.com/crackerjackdev" target="_blank" rel="noopener noreferrer">
                 Twitter
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="#" className="mx-2">
+              <a className="mx-2" href="https://www.facebook.com/crackerjackdev" target="_blank" rel="noopener noreferrer">
                 Facebook
-              </Link>
+              </a>
             </li>
           </ul>
         </footer>
